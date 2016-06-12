@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>03-HTML5-Elements</title>
+</head>
+<body>
+	<form method="POST" action="sendData.php">
+
+		<label for="birth-date" >Birth date:</label>
+		<input id="birth-date" type="date" name="date"><br><br>
+
+		Gender:
+		<input id="male" type="radio" name="gender" required checked>
+		<label for="male">Male</label>
+		<input id="female" type="radio" name="gender" required>
+		<label for="female">Female</label><br><br>
+
+		<label for="color">Favorit color:</label>
+		<input id="color" type="color" name="color"><br><br>
+
+		<label for="hours">How many hours you spend in front of tv? </label>
+		<input id="hours" type="number" min="1" max="24" title="number from 1 to 24" name="number"><br><br>
+		number
+		<label for="range">How many hours a day  you spend in internet?</label>
+		<input id="range" type="range" name="points" min="0" max="10"><br><br>
+
+		<label for="conditions">I'am aware in terms & conditions</label><input id="conditions" type="checkbox" name="checkbox" checked=""><br><br>
+	</form>
+</body>
+</html>
