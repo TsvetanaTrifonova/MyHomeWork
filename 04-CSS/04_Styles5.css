@@ -1,0 +1,110 @@
+/*start of css reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.main-title{
+	font-size: 36px;
+}
+
+
+/*enf of reset*/
+#main {
+   width:900px;
+   border: 1px Solid;
+   margin: 6px;
+   padding: 6px;
+}
+
+table {
+    width:100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+.left-td {
+	font-weight: bold;
+	background-color: #0088cc;
+	width: 10%;
+	font-size: 20px;
+}
+#td2 {
+	width: 30%;
+}
+#td3 {
+	width: 30%;
+}
+#td4 {
+	width: 15%;
+}
+#td5 {
+	width: 15%;
+}
+table.names tr:nth-child(even) {
+    background-color: #e3e6e8;
+}
+table.names tr:nth-child(odd) {
+   background-color: #9da8af;
+}
+table.names th {
+    background-color: #99bbff;
+    color: black;
+    font-size: 24px;
+    vertical-align: middle;	
+    font-weight: bold;
+}
+#first-row{
+	font-weight: bold;
+	background-color: #e3e6e8;
+	font-size: 28px;
+}
+#last-row{
+	font-weight: bold;
+	background-color: #1b3ca3;
+	text-align: right;
+	font-size: 20px;
+}
