@@ -55,94 +55,77 @@ table {
     border: 1px solid black;
     z-index: -1;
 }
+.for-all{
+       position:absolute;
+       text-align: center;
+       border: 1px solid black;
+}
+.color-black{
+    color:black;
+}
+.color-white{
+    color:white;
+}
 #div1 {
-    position:absolute;
     width:100px;
     height:80px;
     background:#ffcc66;
     padding: 30px 0;
-    text-align: center;
-    color:black;
     left:100px;
     top:30px;
-    border: 1px solid black;
     z-index: 4;
 }
 #div2 {
-    position:absolute;
     width:250px;
     height: 20px;
     background:#ccff99;
     padding: 75px 0;
-    text-align: center;
-    color:black;
     left:80px;
     top:110px;
-    border: 1px solid black;
     z-index: 3;
 }#div3 {
-    position:absolute;
     width:150px;
     height:120px;
     background:#ccd1c7;
     padding: 60px 0;
-    text-align: center;
-    color:white;
     left:300px;
     top:20px;
-    border: 1px solid black;
     z-index: 2;
 }
 #div4 {
-    position:absolute;
     width:90px;
     height: 60px;
     background:#ff33cc;
     padding: 20px 0;
-    text-align: center;
-    color:white;
     left:400px;
     top:130px;
-    border: 1px solid black;
     z-index: 5;
 }
 #div5 {
-    position:absolute;
     width:220px;
     height:70px;
     background:yellow;
     padding: 90px 0;
-    text-align: center;
-    color:black;
     left:250px;
     top:200px;
-    border: 1px solid black;
     z-index: 1;
 }
 #div6 {
-    position:absolute;
     width:200px;
     height: 20px;
     background:#3399ff;
     padding: 75px 0;
-    text-align: center;
-    color:white;
     left:60px;
     top:250px;
-    border: 1px solid black;
     z-index: 3;
 }
 #div7 {
-    position:absolute;
     width:190px;
     height: 50px;
     background:#00FFFF;
     padding: 75px 0;
-    text-align: center;
-    color:black;
     left:200px;
     top:380px;
-    border: 1px solid black;
     z-index: 2;
 }
 p {
