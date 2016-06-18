@@ -42,11 +42,11 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-.main-title{
-	font-size: 36px;
-}
 /*enf of reset*/
 
+.color-blue {
+    color:#66d9ff;
+}
 #main {
    width:900px;
    border: 1px Solid;
@@ -54,37 +54,31 @@ table {
 #header {
     border: 2px Solid;
     background-color:#eeeeee;
-    color:#66d9ff;
     text-align:center;
     padding:5px;
     margin: 8px;
  }
 #frame{
     border: 2px Solid;
-    border-color:#66d9ff;
-    width:882px;
-    margin-left: 8px;
+    margin: 8px;
+    background-color:orange;
     float:left;
-
+    border-color:#66d9ff;
  }
 .section {
-    width:274px;
+    width:33%;
     float:left;
-    padding:10px;
-    background-color:orange;
     text-align:center;
 }
 #footer {
     background-color:white;
-    color:#66d9ff;
-    clear:both;
     text-align:left;
     padding:8px;
     text-indent: 25px;
 }
 h1 { 
-font-weight: bold;
 font-size: 1.8em;
+font-weight: bold;
 }
 h2 { 
 font-weight: bold;
