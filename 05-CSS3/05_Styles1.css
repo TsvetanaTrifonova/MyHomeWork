@@ -1,0 +1,106 @@
+/*start of css reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*enf of reset*/
+
+#body{
+   background-color: #f2f2f2; 
+}
+
+#test{
+    position:relative;
+    width:600px;
+    height:410px;
+    background:white;
+    left:15px;
+    top:15px;
+    border: 1px solid black;
+    z-index: 1;
+}
+
+#mydiv{
+    width: 96%;
+    height: 96%;
+    position: absolute;
+    z-index: 2;
+    top: 1.5%;
+    left: 1.6%;
+    border: 2px Solid;
+    background-color: #f2f2f2;
+}
+
+.box, select {
+    width: 40%;
+    padding: 10px 20px;
+    margin: 8px 0 20px;
+    display: inline-block;
+    border: 1px solid #a9aaa9;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 16%;
+    background-color: #bfc3bf;
+    color: black;
+    padding: 20px 0;
+    margin: 8px 0;
+    border: none;
+    border-radius: 25px;
+}
+
+input[type=submit]:hover {
+    background-color: #8e8f8e;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    padding-top: 60px;
+}
+.left-padd{
+     padding-left: 30px;
+}
