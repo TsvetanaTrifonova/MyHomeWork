@@ -1,0 +1,107 @@
+/*start of css reset*/
+body, main, header, section, article, footer, h1, h2, h3, p, ul,li{
+  margin: 0;
+  padding: 0;
+}
+*{
+  box-sizing: border-box;
+}
+/*enf of reset*/
+
+main{
+  width: 1349px;
+  margin: 0 auto;
+  font-family: arial;
+}
+header{
+  background: #666363;
+  color: white;
+  padding: 15px;
+}
+.clearfix:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+section{
+  color: #555;
+}
+article{
+  width: 23%;
+  float: left;
+  margin-right: 1%;
+  padding: 20px;
+  }
+#first-article{
+  width: 51%;
+}    
+#first-article h1{
+  font-size: 2em;
+}  
+#first-article p{
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+div{
+  width: 100%;
+  height: 270px;
+  background-color:#cccccc; 
+  margin-top: 20px;
+  padding-top: 100px;
+  text-align: center;
+  font-size: 46px;
+  color: #969696;
+}
+nav{
+  background-color: #000000;
+}
+ul {
+  list-style-type: none;
+  padding-left: 20px;
+  overflow: hidden;
+  margin-bottom: 10px; }
+li {
+  float: left;
+  width: 70px; 
+  padding: 8px;
+  color: white;}
+h1, h2, h3, p{
+    padding-bottom: 10px;
+  }
+  footer{
+      background-color: #000000;
+      color: white;
+      padding-left: 20px;
+      padding-top: 15px;
+      margin-top: 50px;
+  }
+
+ @media screen and (max-width: 800px){
+  main{
+    width: 747px;
+  }
+  article{
+    width: 98%;
+    padding: 10px 10px 0 10px;
+  }
+  #first-article{
+  width: 98%;
+  }
+  #first-article p{
+    border-bottom-width: 0px;
+    padding-bottom: 0px;
+  }
+  ul{
+    padding-left: 0px;
+  }
+  li{
+    width: 98%;
+    border-bottom: 1px solid #555;
+  }
+  footer{
+    margin-top: 25px;
+  }
+
+}
