@@ -23,5 +23,5 @@ function ObjectStudent(){
 	console.log(student.learn());
 	console.log(student.enjoy());
 }
-
+var bntStudent = document.getElementById('bntStudent');
 bntStudent.addEventListener('click', ObjectStudent);
