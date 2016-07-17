@@ -1,0 +1,17 @@
+
+*{
+  box-sizing: border-box;
+}
+
+button{
+	float: left;
+	width: 200px;
+	height: 40px;
+	margin: 10px;
+}
+
+
+input{
+	height: 34px;
+	margin: 10px;
+}
