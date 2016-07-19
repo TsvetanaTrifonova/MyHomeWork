@@ -1,0 +1,32 @@
+button{
+	background-color: #2bb861;
+	color: white;
+	font-weight:bold;
+	padding: 8px;
+	border-radius: 8px;
+	border: none;
+	outline: none
+}
+#div-fade-in{
+	width: 200px;
+	height: 200px;
+	margin-top: 20px;
+	background-color: #99ccff;
+	opacity: 0.5;
+}
+#divAnimation{
+	width: 100px;
+	height: 40px;
+	margin-top: 20px;
+	background-color: yellow;
+	border-radius: 40%;
+}
+h1{
+	color:blue;
+	margin-top: 50px;
+	font-style: italic;
+}
+#title{
+	color:black;
+}
+
